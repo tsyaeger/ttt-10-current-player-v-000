@@ -5,6 +5,7 @@ def turn_count(board)
   board.each do |cell|
     if cell == "X" || cell == "Y"
       t_count += 1
+    end
     return t_count
 end
 
