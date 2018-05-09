@@ -19,5 +19,5 @@ def current_player(board)
   else
     turn = "Y"
   end
-    
+  return turn
 end
