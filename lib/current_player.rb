@@ -6,7 +6,7 @@ def turn_count(board)
     if cell == "X" || cell == "O"
       t_count += 1
     end
-    return t_count
+  return t_count
 end
 
 
